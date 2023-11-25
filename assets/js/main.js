@@ -255,11 +255,15 @@ function showsidebar(){
   const sidebar=document.querySelector(".mobile-sidebar");
   sidebar.style.display="flex";
 
+  const body = document.body;
+  body.classList.add("sidebar-open");
 }
 
 function hidesidebar(){
   const sidebar=document.querySelector(".mobile-sidebar");
   sidebar.style.display="none";
+  const body = document.body;
+  body.classList.remove("sidebar-open");
 }
 
 

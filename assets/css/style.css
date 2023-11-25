@@ -3,6 +3,9 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
+body.sidebar-open {
+  overflow: hidden;
+}
 
 a {
   color: #47b2e4;
