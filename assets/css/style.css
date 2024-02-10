@@ -151,15 +151,20 @@ nav li:first-child{
  height: 100vh;
  width: 250px;
  z-index: 999;
-  background-color: #37517e6d;
- backdrop-filter:blur(10px); 
- box-shadow: -10px 0  10px rgba(0,0, 0, 0.1);
+ background-color: #004a99;
+ box-shadow: -10px 0  10px rgba(0,0, 0, 0.1); 
  display: none;
  flex-direction: column;
  justify-content: flex-start;
  align-items: flex-start;
 }
-
+.mobile-sidebar li path{
+  fill: #dfdfdf;
+}
+.mobile-sidebar li path:hover{
+  fill: black;
+  transition: 0.3s ease-in-out;
+}
 .mobile-sidebar li{
  width: 100%;
 }
@@ -174,6 +179,13 @@ nav li:first-child{
 
 .mobile-sidebar a{
   width: 100%;
+  color: #dfdfdf;
+  font-size: 24px;
+ }
+
+ .mobile-sidebar a:hover{
+  color: #ffff;
+  transition: 0.3s ease-in-out;
  }
 
 .menu-button{
