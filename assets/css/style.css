@@ -152,7 +152,7 @@ nav li:first-child{
  width: 250px;
  z-index: 999;
  background-color: #004a99;
- box-shadow: -10px 0  10px rgba(0,0, 0, 0.1); 
+ box-shadow: -10px 0  10px rgba(12, 10, 10, 0.1); 
  display: none;
  flex-direction: column;
  justify-content: flex-start;
